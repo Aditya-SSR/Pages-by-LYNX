@@ -32,11 +32,6 @@ It provides a distraction-free space to write down tasks, complete them, and sta
 - Google Fonts for modern typography  
 - GitHub Pages for hosting and deployment  
 
-### 🔧 Run Locally
-git clone https://github.com/Aditya-SSR/Pages-by-LYNX.git
-cd Pages-by-LYNX
-open index.html
-
 ### 🌐 Live Demo
 
 Try the app here:
