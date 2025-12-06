@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inconsolata", sans-serif;
+}
+
+body{
+    background-color: #d9d4cc;
+    margin: 0;
+    padding: 0;
+    font-family: "Inconsolata", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem 1rem 0;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #f8f3eb;
+    width: fit-content;
+    border-radius: 20px;
+
+}
+
+.box input{
+    padding: 14px 5rem;
+    border: 2px solid #6691d1;
+    border-radius: 12px;
+}
+
+.box input:focus{
+    border: 2px solid #6082b6;
+    outline: none;
+    box-shadow: 2px 2px 5px #8bb1eb;
+}
+
+.box input::placeholder{
+    font-size: 20px;
+    color: rgb(152, 152, 152);
+}
+
+.box button{
+    padding: 10px 20px;
+    font-size: 24px;
+    border: 1px solid #6691d1;
+    background-color: #6691d1;
+    border-radius: 12px;
+    color: #eee7dc;
+}
+
+.tasks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+    margin: 2rem auto 0 auto;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    transition: 0.2s ease;
+    background-color: #f8f3eb;
+    padding: 10px;
+    width: 270px;
+    border-radius: 12px;
+}
+
+.task-checkbox{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.real-task{
+    font-size: 24px;
+    color: #588ddd;
+}
+
+.completed{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    color: gray;
+    transition: 0.2s ease;
+}
+
+.status{
+    color: gray;
+}
+
+.striked{
+    font-size: 24px;
+    text-decoration: line-through;
+}
+
+.notasks{
+    color: gray;
+    font-size: 21px;
+}
+
+.footer{
+    margin-top: auto;
+    height: 150px;
+    width: 100%;
+    background-color: #6691d1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.footer-elements{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Bitcount Prop Single", sans-serif;
+    font-weight: 400;
+    color: #eee7dc;
+    margin: 0.3rem 0;
+}
+
+.span{
+    font-size: 20px;
+    font-family: "Inconsolata", sans-serif;
+    margin-left: 10px;
+}
+
+.simple{
+    color: #eee7dc;
+    text-align: center;
+    margin: 0.2rem 0 2rem;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.social-links svg{
+    height: 30px;
+    width: 30px;
+    fill: #eee7dc;
+    transition: 0.2s ease;
+}
+
+.social-links svg:hover{
+    transform: scale(1.2);
+}
