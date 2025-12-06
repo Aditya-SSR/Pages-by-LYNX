@@ -3,7 +3,9 @@
 Pages is a clean and simple task-tracking web app designed with a soft aesthetic and smooth interactions.
 It provides a distraction-free space to write down tasks, complete them, and stay organized throughout the day.
 
-![Pages Screenshot](./readme.jpg)
+<p align="center">
+  <img src="./readme.jpg" alt="Pages Screenshot" width="350">
+</p>
 
 ### 🚀 Features
 
